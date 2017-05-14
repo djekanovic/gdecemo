@@ -35,13 +35,23 @@ $(function(){
 });
 
 
+// $("#hide").click(function(){
+//     $(".container").fadeOut(500);  $(".container-one").addClass("flex") .show();
+//
+//
+// });
+//
+// $("#show").click(function(){
+//   $(".container-one").fadeOut(500);     $(".container").slideDown(500);
+// });
+
 
 $("#hide").click(function(){
-    $(".container").slideUp(500);  $(".container-one").addClass("flex") .show();
+    $(".left") .addClass("move-right"); $(".right, .bottom-left, .bottom-right") .addClass("fadeout"); $(".circular-nav") .css("display","block");
 
 
 });
-
-$("#show").click(function(){
-  $(".container-one").fadeOut(500);     $(".container").slideDown(500);
-});
+//
+// $("#show").click(function(){
+//   $(".container-one").fadeOut(500);     $(".container").slideDown(500);
+// });
