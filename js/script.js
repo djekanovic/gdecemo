@@ -44,3 +44,5 @@ $("#hide").click(function(){
 
 $("#show").click(function(){
   $(".container-one").fadeOut(500);     $(".container").slideDown(500);
+
+});
