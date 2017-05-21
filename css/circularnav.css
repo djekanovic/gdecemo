@@ -1,9 +1,5 @@
 
 
-* {
-  position: relative;
-  z-index: 999;
-}
 
 .move-right {
 animation-name: move-right;
@@ -13,8 +9,8 @@ animation-fill-mode: forwards;
 }
 
 @keyframes move-right {
-    0%   {left: 0}
-    100%  {left: 25%;}
+    0%   {left: 0; top: 0;}
+    100%  {left: 15vw; top:18vh;}
 
   }
 
@@ -82,15 +78,15 @@ animation-fill-mode: forwards;
 
 }
 .circular-nav {
-    top: 15%;
-    right: 38%;
+    top: 10vh;
+    left: 40%;
 }
 
 
 .circular-nav-item {
     background: #4dff4d;
-    width: 7.5vw;
-    height: 7.5vw;
+    width: 17vh;
+    height: 17vh;
     border-radius: 100%;
     display: flex;
     justify-content: center;

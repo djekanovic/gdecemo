@@ -1,16 +1,18 @@
 <!doctype html>
 
-<html lang="en">
+<html lang="en" class="">
 <head>
   <meta charset="utf-8">
 
-  <title>Gdecemo Homepage bg Video</title>
-  <meta name="description" content="Gdecemo Homepage bg Video">
-  <meta name="author" content="SitePoint">
+  <title>Gdecemo Homepage BG Video</title>
+  <meta name="description" content="Gdecemo Homepage">
+  <meta name="author" content="djekanovic.com">
 
-  <link rel="stylesheet" href="css/style-bg.css?v=1.0">
+  <link rel="stylesheet" href="css/style.css?v=1.0">
     <link rel="stylesheet" href="css/popup.css?v=1.0">
     <link rel="stylesheet" href="css/animations.css?v=1.0">
+    <link rel="stylesheet" href="css/circularnav.css?v=1.0">
+
 
 
   <!--[if lt IE 9]>
@@ -22,17 +24,17 @@
   <script src="https://use.fontawesome.com/97f821f346.js"></script>
 
 
+    
 </head>
 
 <body>
-  <div class="fullscreen-bg">
+    <div class="fullscreen-bg">
     <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
         <source src="video/belgrade.webm" type="video/webm">
         <source src="video/belgrade.mp4" type="video/mp4">
         <source src="video/belgrade.ogv" type="video/ogg">
     </video>
 </div>
-
 
   <div class="everything-wrap">
 
@@ -76,48 +78,66 @@
 </div>
 
 <div class="container">
+    <div class="circle-container">
+
+  <div class="circular-nav">
+
+    <div class="circular-nav-item">  <img class="svg" id="svg" src="svgs/pice/pivo.svg" > </div>
+    <div class="circular-nav-item">  <img class="svg" id="svg" src="svgs/pice/splav.svg" > </div>
+    <div class="circular-nav-item">  <img class="svg" id="svg" src="svgs/pice/kafa.svg" ></div>
+    <div class="circular-nav-item">  <img class="svg" id="svg" src="svgs/pice/kafe-bar.svg" ></div>
+      </div>
+
 
   <div class="single-item-container left" id="hide">
+
     <p class="service-name">Na Piće</p>
 
     <div class="item">
 
-  <img class="svg" src="svgs/global/pice.svg" ></img>
+  <img class="svg" src="svgs/global/pice.svg" >
 
     </div>
 
   </div>
+        
+        </div>
 
-<div class="single-item-container">
+     <div class="circle-container">
+
+<div class="single-item-container right">
   <p class="service-name">Da Jedemo</p>
 
   <div class="item">
 
-<img class="svg" id="svg" src="svgs/global/has.svg" ></img>
+<img class="svg" id="svg" src="svgs/global/has.svg" >
 
   </div>
 
 </div>
+      </div>
+     <div class="circle-container">
 
 
-<div class="single-item-container">
+<div class="single-item-container bottom-left">
   <p class="service-name">U Izlazak</p>
 
   <div class="item">
 
-    <img class="svg" id="svg" src="svgs/global/izlazak.svg" ></img>
+    <img class="svg" id="svg" src="svgs/global/izlazak.svg" >
 
   </div>
 
 </div>
+    </div>
+     <div class="circle-container">
 
-
-  <div class="single-item-container">
+  <div class="single-item-container bottom-right">
     <p class="service-name">Na Zabavu</p>
 
     <div class="item">
 
-<img class="svg" id="svg" src="svgs/global/zabavu.svg" ></img>
+<img class="svg" id="svg" src="svgs/global/zabavu.svg" >
 
     </div>
 
@@ -125,6 +145,7 @@
 
 </div>
 
+    </div>
 
 
 
@@ -140,7 +161,7 @@
 
     <div class="item">
 
-  <img class="svg" id="svg" src="svgs/pice/pivo.svg" ></img>
+  <img class="svg" id="svg" src="svgs/pice/pivo.svg" >
 
     </div>
 
@@ -151,7 +172,7 @@
 
   <div class="item">
 
-<img class="svg" id="svg" src="svgs/pice/splav.svg" ></img>
+<img class="svg" id="svg" src="svgs/pice/splav.svg" >
 
   </div>
 
@@ -163,7 +184,7 @@
 
   <div class="item">
 
-    <img class="svg" id="svg" src="svgs/pice/kafa.svg" ></img>
+    <img class="svg" id="svg" src="svgs/pice/kafa.svg" >
 
   </div>
 
@@ -175,7 +196,7 @@
 
     <div class="item">
 
-<img class="svg" id="svg" src="svgs/pice/kafe-bar.svg" ></img>
+<img class="svg" id="svg" src="svgs/pice/kafe-bar.svg" >
 
     </div>
 
@@ -185,10 +206,11 @@
 
 <div class="footer">
 
-<p class="copyright">Copyright Gdecemo.rs © 2017 All Rights Reserved</p>
+<p class="copyright">Copyright Gdecemo.rs © 2017 All Rights Reserved |  Version 1.0 Circles</p>
  </div>
 
 </div>
+
 
 
 <script
@@ -197,6 +219,7 @@
   crossorigin="anonymous"></script>
 
     <script src="js/script.js"></script>
+
 
 </body>
 </html>
